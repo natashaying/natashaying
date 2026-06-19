@@ -3,8 +3,8 @@
   "configurations": [
     {
       "name": "portfolio",
-      "runtimeExecutable": "python3",
-      "runtimeArgs": ["-m", "http.server", "3344"],
+      "runtimeExecutable": "bash",
+      "runtimeArgs": ["-c", "cd '/Users/natashaying/Documents/portfolio web' && python3 -m http.server 3344"],
       "port": 3344
     }
   ]
